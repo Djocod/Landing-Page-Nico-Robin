@@ -1,0 +1,115 @@
+/* nav  */
+header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  .container-img-name-nav {
+    text-align: center;
+    img {
+      height: 150%;
+    }
+  }
+  .container-title-nav {
+    width: 100%;
+    .container-name-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      h1 {
+        padding: 0px 10px;
+        font-weight: 500;
+        font-size: 2rem;
+        text-decoration: transparent;
+        transition: 0.3s ease-in-out;
+        &:hover {
+          text-decoration: underline;
+          color: var(--hover-nav);
+          transition: 0.3s ease-in-out;
+        }
+      }
+      .container-num-pages {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .num {
+          font-weight: 500;
+          margin: 0 5px;
+          p {
+            font-weight: 600;
+            margin: 0;
+            line-height: 18px;
+          }
+          p:first-child {
+            font-size: 18px;
+            margin: 0;
+          }
+          p:last-child {
+            font-size: 14px;
+            margin: 0;
+          }
+        }
+      }
+      .message-turn-light {
+        border-radius: 5px;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .fa {
+          height: 100%;
+          width: 100%;
+          padding: 9px;
+          align-items: center;
+          border: 1px solid black;
+          transition: 0.3s ease-in-out;
+          .fa-message,
+          .fa-moon {
+            transition: 0.3s ease-in-out;
+          }
+          &:hover {
+            border: 1px solid var(--hover-nav);
+            transition: 0.3s ease-in-out;
+            .fa-message,
+            .fa-moon {
+              transition: 0.3s ease-in-out;
+              color: var(--hover-nav);
+            }
+          }
+        }
+        .container-message {
+          border-radius: 3px 0px 0px 3px;
+        }
+        .container-moon {
+          border-radius: 0px 3px 3px 0px;
+        }
+      }
+    }
+
+    nav {
+      padding: 0px 5px;
+      .nav-list-one-piece {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        list-style: none;
+        .items-list {
+          padding: 10px 20px 10px 0px;
+          font-weight: 700;
+          font-size: 0.9rem;
+          a {
+            margin: 0px 5px;
+            color: black;
+            text-decoration: transparent;
+            text-transform: uppercase;
+            transition: 0.3s ease-in-out;
+            &:hover {
+              text-decoration: underline;
+              transition: 0.3s ease-in-out;
+              color: var(--hover-nav);
+            }
+          }
+        }
+      }
+    }
+  }
+}

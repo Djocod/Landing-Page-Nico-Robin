@@ -1,0 +1,132 @@
+aside {
+  margin: 0 0 0 20px;
+  float: right;
+  width: 270px;
+  background: var(--white);
+  .container-profil {
+    border: 1px solid var(--grey-all);
+    h3 {
+      color: var(--red);
+      background: var(--yellow);
+      text-align: center;
+      padding: 9px;
+    }
+    h4 {
+      padding: 9px;
+      font-weight: 700;
+      font-size: 1rem;
+      line-height: 18px;
+      color: var(--red);
+      background: var(--yellow);
+      text-align: center;
+    }
+    .container-profil-post {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      .profil-link-post {
+        padding: 15px 5px;
+        margin: 0;
+        text-align: center;
+        width: 50%;
+        font-size: 0.7rem;
+        font-weight: 600;
+        line-height: 14px;
+        color: var(--red);
+        background: var(--yellow);
+        border: 1px solid var(--white);
+        &:first-child {
+          color: var(--yellow);
+          background: var(--red);
+        }
+      }
+    }
+    .container-img-Robin {
+      overflow: hidden;
+      img {
+        width: 100%;
+        height: auto;
+        padding: 0px 5px;
+        transform: scale(1);
+        transition: 0.3s ease-in-out;
+        &:hover {
+          transform: scale(1.1);
+          transition: 0.3s ease-in-out;
+        }
+      }
+    }
+    .container-stat,
+    .container-Portoryal {
+      p {
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 18px;
+        margin: 0;
+      }
+      p:first-child {
+        font-weight: 700;
+      }
+      .content-aside,
+      .container-voice,
+      .container-live-action {
+        display: grid;
+        grid-template-columns: 30% 60%;
+        gap: 10%;
+        padding: 10px;
+        border-bottom: 1px solid var(--grey-all);
+        ul {
+          list-style: none;
+          li {
+            img {
+              transform: translateY(30%);
+            }
+          }
+        }
+        &:last-child {
+          border-bottom: 1px solid transparent;
+        }
+      }
+    }
+  }
+
+  .container-devil {
+    margin-top: 30px;
+    border: 1px solid var(--grey-all);
+    .container-devil-fruit {
+      h4 {
+        padding: 9px;
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 18px;
+        color: var(--red);
+        background: var(--yellow);
+        text-align: center;
+      }
+      .fa-chevron-down {
+        text-align: right;
+      }
+      p {
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 18px;
+        margin: 0;
+      }
+      p:first-child {
+        font-weight: 700;
+      }
+      .container-name-fruit,
+      .container-meaning,
+      .container-type {
+        display: grid;
+        grid-template-columns: 30% 60%;
+        gap: 10%;
+        padding: 10px;
+        border-bottom: 1px solid var(--grey-all);
+        &:last-child {
+          border-bottom: 1px solid transparent;
+        }
+      }
+    }
+  }
+}

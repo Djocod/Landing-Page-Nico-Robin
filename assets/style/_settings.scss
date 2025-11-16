@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  --black: rgb(0, 0, 0);
+  --white: rgb(255, 255, 255);
+  --white-bg: rgb(242, 242, 242);
+  --white-hover: rgb(219, 219, 219);
+  --grey-font: rgb(58, 58, 58);
+  --grey-text-border: rgb(150, 150, 150);
+  --grey-all: rgb(233, 233, 233);
+  --hover-nav: #31585c;
+  --violet: rgb(82, 0, 68);
+  --violet-footer-bg: rgb(40, 0, 51);
+  --violet-hover: rgb(158, 0, 136);
+  --blue-link: rgb(22, 165, 254);
+  --blue-link-hover: rgb(0, 45, 74);
+  --blue-grey: rgb(206, 222, 232);
+  --red: rgb(255, 0, 0);
+  --yellow: rgb(255, 215, 0);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  color: var(--grey-font);
+}
+body {
+  margin: 0 auto;
+  background: url(../img/Site-background-light.webp) center;
+  background-attachment: fixed;
+}
+main {
+  transform: translateY(2%);
+  margin: 0 auto;
+}
+header,
+section {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 23px;
+}
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 25px 0px;
+  overflow-wrap: break-word;
+}
+a {
+  color: var(--blue-link);
+  transition: 0.3s ease-in-out;
+  text-decoration: transparent;
+  &:hover {
+    color: var(--blue-link-hover);
+    transition: 0.3s ease-in-out;
+    text-decoration: underline;
+  }
+}

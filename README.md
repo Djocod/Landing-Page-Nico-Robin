@@ -68,3 +68,6 @@ Here is a preview of the landing page:
 ## Author
 
 - **Djocod** - Creator of the landing page.
+
+Origin of the page:
+https://onepiece.fandom.com/wiki/Nico_Robin
